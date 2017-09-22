@@ -32,6 +32,8 @@ public class HelloServlet extends HttpServlet {
 		
 		response.getWriter().write("\nAdd User A branch");
 		response.getWriter().write("\nModify User A branch");
+
+		response.getWriter().write("\nSwitch User B branch");
 	}
 
 	/**
